@@ -1,0 +1,23 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A repo with different section that explain the nodejs language",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mafius19/NodeServer.git"
+  },
+  "author": "Matias Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mafius19/NodeServer/issues"
+  },
+  "homepage": "https://github.com/Mafius19/NodeServer#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

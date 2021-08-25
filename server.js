@@ -1,10 +1,14 @@
 const http = require('http');
 const fs = require('fs');
+const moment = require('moment');
 const port = 3000;
+const christmas = '2022-12-25';
+console.log(moment(christmas).format('LL'));
 const hostname = 'localhost';
 
 //En este caso el servidor leera la url solicitada y en base a esta cargara entre 3 posibles htmls ubicados en views
-//Se agregó el status code en res para cisualizar en la consola del navegador section network
+//Se agregó el status code en res para visualizar en la consola del navegador section network
+//Se incorporo un status code 301 de redireccion
 //para ello ejecuta server.js con nodemon
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
