@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Mafius19/NodeServer#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "moment": "^2.29.1"
   }
 }
